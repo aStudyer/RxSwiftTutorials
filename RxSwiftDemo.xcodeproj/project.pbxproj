@@ -3,11 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		104D18E7C7D52D854A609BC1 /* Pods_RxSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF8C80CF1AD16E51DD6B001 /* Pods_RxSwiftDemo.framework */; };
+		2E143A5923484338002C1CA2 /* RxMoya2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E143A5823484338002C1CA2 /* RxMoya2.plist */; };
+		2E143A5C234848FA002C1CA2 /* RxMoya2DetailVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E143A5B234848FA002C1CA2 /* RxMoya2DetailVC1.swift */; };
+		2E143A5E234867DD002C1CA2 /* RxMoya2DetailVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E143A5D234867DD002C1CA2 /* RxMoya2DetailVC2.swift */; };
+		2E143A6023487D4F002C1CA2 /* RxMoya2DetailVC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E143A5F23487D4F002C1CA2 /* RxMoya2DetailVC3.swift */; };
 		8D2743242325F86200B0E5D3 /* RxObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2743232325F86200B0E5D3 /* RxObjectMapper.swift */; };
 		8D2743272325FB0100B0E5D3 /* RxAlamofire1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2743262325FB0100B0E5D3 /* RxAlamofire1.swift */; };
 		8D2743292325FCF300B0E5D3 /* RxAlamofire1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D2743282325FCF300B0E5D3 /* RxAlamofire1.storyboard */; };
@@ -25,7 +29,6 @@
 		8D27434723268A8C00B0E5D3 /* DouBanAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27434623268A8C00B0E5D3 /* DouBanAPI.swift */; };
 		8D27434923269F8E00B0E5D3 /* RxMoya1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D27434823269F8E00B0E5D3 /* RxMoya1.storyboard */; };
 		8D27434B2326A16400B0E5D3 /* RxMoya2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27434A2326A16400B0E5D3 /* RxMoya2.swift */; };
-		8D27434D2326A1A700B0E5D3 /* RxMoya2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D27434C2326A1A700B0E5D3 /* RxMoya2.storyboard */; };
 		8D5703022324CC2300739C3E /* RXLabelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5703012324CC2300739C3E /* RXLabelVC.swift */; };
 		8D5703042324CE7300739C3E /* RXLabelVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D5703032324CE7300739C3E /* RXLabelVC.storyboard */; };
 		8D5703062324D26E00739C3E /* RXTextFieldVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5703052324D26E00739C3E /* RXTextFieldVC.swift */; };
@@ -147,6 +150,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E143A5823484338002C1CA2 /* RxMoya2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RxMoya2.plist; sourceTree = "<group>"; };
+		2E143A5B234848FA002C1CA2 /* RxMoya2DetailVC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxMoya2DetailVC1.swift; sourceTree = "<group>"; };
+		2E143A5D234867DD002C1CA2 /* RxMoya2DetailVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxMoya2DetailVC2.swift; sourceTree = "<group>"; };
+		2E143A5F23487D4F002C1CA2 /* RxMoya2DetailVC3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxMoya2DetailVC3.swift; sourceTree = "<group>"; };
 		59576B1302DF02A348E07D41 /* Pods-RxSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftDemo.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftDemo/Pods-RxSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		61D52E75B42A8FEB48B0B287 /* Pods-RxSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftDemo.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftDemo/Pods-RxSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
 		8D2743232325F86200B0E5D3 /* RxObjectMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxObjectMapper.swift; sourceTree = "<group>"; };
@@ -166,7 +173,6 @@
 		8D27434623268A8C00B0E5D3 /* DouBanAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouBanAPI.swift; sourceTree = "<group>"; };
 		8D27434823269F8E00B0E5D3 /* RxMoya1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RxMoya1.storyboard; sourceTree = "<group>"; };
 		8D27434A2326A16400B0E5D3 /* RxMoya2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxMoya2.swift; sourceTree = "<group>"; };
-		8D27434C2326A1A700B0E5D3 /* RxMoya2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RxMoya2.storyboard; sourceTree = "<group>"; };
 		8D5703012324CC2300739C3E /* RXLabelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXLabelVC.swift; sourceTree = "<group>"; };
 		8D5703032324CE7300739C3E /* RXLabelVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RXLabelVC.storyboard; sourceTree = "<group>"; };
 		8D5703052324D26E00739C3E /* RXTextFieldVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXTextFieldVC.swift; sourceTree = "<group>"; };
@@ -326,7 +332,10 @@
 				8D2743442326886000B0E5D3 /* RxMoya1.swift */,
 				8D27434823269F8E00B0E5D3 /* RxMoya1.storyboard */,
 				8D27434A2326A16400B0E5D3 /* RxMoya2.swift */,
-				8D27434C2326A1A700B0E5D3 /* RxMoya2.storyboard */,
+				2E143A5B234848FA002C1CA2 /* RxMoya2DetailVC1.swift */,
+				2E143A5D234867DD002C1CA2 /* RxMoya2DetailVC2.swift */,
+				2E143A5F23487D4F002C1CA2 /* RxMoya2DetailVC3.swift */,
+				2E143A5823484338002C1CA2 /* RxMoya2.plist */,
 			);
 			path = RxMoya;
 			sourceTree = "<group>";
@@ -736,10 +745,10 @@
 				8D5703182324E9A400739C3E /* RXSwitchVC.storyboard in Resources */,
 				8D9D23F82315037D000A413F /* DebugOperatorsVC.storyboard in Resources */,
 				8D57031C2324EA5A00739C3E /* RXSwitchDetailVC.storyboard in Resources */,
+				2E143A5923484338002C1CA2 /* RxMoya2.plist in Resources */,
 				8D57036523253D1000739C3E /* RXUITableViewVC7Detail.storyboard in Resources */,
 				8D5703102324E0C300739C3E /* RXButtonDetailVC.storyboard in Resources */,
 				8D2743292325FCF300B0E5D3 /* RxAlamofire1.storyboard in Resources */,
-				8D27434D2326A1A700B0E5D3 /* RxMoya2.storyboard in Resources */,
 				8D2743422326831600B0E5D3 /* RxAlamofire4.storyboard in Resources */,
 				8D57036B2325B80200739C3E /* UICollectionView2.storyboard in Resources */,
 				8D9D23E42313D54D000A413F /* MathematicalAndAggregateOperatorsVC.storyboard in Resources */,
@@ -798,36 +807,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RxSwiftDemo/Pods-RxSwiftDemo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
-				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
-				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
-				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
-				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
-				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
-				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwiftDemo/Pods-RxSwiftDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwiftDemo/Pods-RxSwiftDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -916,8 +900,11 @@
 				8D57033923250A4700739C3E /* RXGestureRecognizer.swift in Sources */,
 				8D57031E2324ED1F00739C3E /* RXActivityIndicatorViewVC.swift in Sources */,
 				8D57034D2325219900739C3E /* RXUITableViewVC3.swift in Sources */,
+				2E143A6023487D4F002C1CA2 /* RxMoya2DetailVC3.swift in Sources */,
 				8D57030A2324D44B00739C3E /* RXTextFieldDetailVC.swift in Sources */,
+				2E143A5E234867DD002C1CA2 /* RxMoya2DetailVC2.swift in Sources */,
 				8D57034923251C2E00739C3E /* RXUITableViewVC2.swift in Sources */,
+				2E143A5C234848FA002C1CA2 /* RxMoya2DetailVC1.swift in Sources */,
 				8D5703322324FD9500739C3E /* RXBindDetailVC.swift in Sources */,
 				8D5703772325E68400739C3E /* UnownedAndWeakVC.swift in Sources */,
 				8D57036D2325B81500739C3E /* UICollectionView2Detail.swift in Sources */,
@@ -1106,7 +1093,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WFU32UD56B;
 				INFOPLIST_FILE = RxSwiftDemo/Res/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1126,7 +1113,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WFU32UD56B;
 				INFOPLIST_FILE = RxSwiftDemo/Res/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

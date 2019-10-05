@@ -19,7 +19,7 @@ let DouBanProvider = MoyaProvider<DouBanAPI>()
 
 /** 下面定义豆瓣FM请求的endpoints（供provider使用）**/
 //请求分类
-public enum DouBanAPI {
+enum DouBanAPI {
     case channels  //获取频道列表
     case playlist(String) //获取歌曲
 }

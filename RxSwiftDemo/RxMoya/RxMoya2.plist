@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>header</key>
+		<string>直接通过 Moya 提供的 mapJSON 方法转换</string>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>写法一</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>写法二</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>header</key>
+		<string>使用样例</string>
+		<key>destVC</key>
+		<string>RxMoya2DetailVC1</string>
+	</dict>
+	<dict>
+		<key>header</key>
+		<string>将结果映射成自定义对象</string>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>普通写法</string>
+				<key>destVC</key>
+				<string>RxMoya2DetailVC2</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>功能改进：将网络请求服务提取出来</string>
+				<key>destVC</key>
+				<string>RxMoya2DetailVC3</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

@@ -1,11 +1,22 @@
 PODS:
   - Alamofire (4.9.0)
   - Differentiator (3.1.0)
-  - MJExtension (3.1.1)
-  - Moya/Core (13.0.1):
+  - HHUIBase_Swift (0.1.7):
+    - MJExtension
+  - MJExtension (3.2.0)
+  - Moya (12.0.1):
+    - Moya/Core (= 12.0.1)
+  - Moya-ObjectMapper/Core (2.8):
+    - Moya (~> 12.0)
+    - ObjectMapper (~> 3.4)
+  - Moya-ObjectMapper/RxSwift (2.8):
+    - Moya-ObjectMapper/Core
+    - Moya/RxSwift
+    - RxSwift (~> 4)
+  - Moya/Core (12.0.1):
     - Alamofire (~> 4.1)
-    - Result (~> 4.1)
-  - Moya/RxSwift (13.0.1):
+    - Result (~> 4.0)
+  - Moya/RxSwift (12.0.1):
     - Moya/Core
     - RxSwift (~> 4.0)
   - ObjectMapper (3.5.1)
@@ -28,7 +39,9 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - HHUIBase_Swift (from `https://github.com/aStudyer/HHUIBase_Swift.git`)
   - MJExtension
+  - Moya-ObjectMapper/RxSwift
   - Moya/RxSwift
   - ObjectMapper
   - R.swift
@@ -44,6 +57,7 @@ SPEC REPOS:
     - Differentiator
     - MJExtension
     - Moya
+    - Moya-ObjectMapper
     - ObjectMapper
     - R.swift
     - R.swift.Library
@@ -53,11 +67,22 @@ SPEC REPOS:
     - RxDataSources
     - RxSwift
 
+EXTERNAL SOURCES:
+  HHUIBase_Swift:
+    :git: https://github.com/aStudyer/HHUIBase_Swift.git
+
+CHECKOUT OPTIONS:
+  HHUIBase_Swift:
+    :commit: ca21ac47281443a979fe9038c7452ccbaa317056
+    :git: https://github.com/aStudyer/HHUIBase_Swift.git
+
 SPEC CHECKSUMS:
   Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
   Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
-  MJExtension: dfef9855ee178e1ce67f3e03b71ca4226330d87d
-  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  HHUIBase_Swift: 76d3b88cc646b70e54e34c5a9d8c9f090f3a885a
+  MJExtension: e22bed65fdcd38e957242982b7384f2984c9088e
+  Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
+  Moya-ObjectMapper: c514b5eafcfd5e260f85f7a5bf66895a217e2b37
   ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
   R.swift: f5a87643b91ea569d23d6afb3eee9c743edde239
   R.swift.Library: cfe85d569d9bae6cb262922db130e7c3a7a5fad1
@@ -67,6 +92,6 @@ SPEC CHECKSUMS:
   RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
   RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
 
-PODFILE CHECKSUM: 4da2f4601fefef97ee9d5deb3e884394baf6642a
+PODFILE CHECKSUM: d39029e9b4643f1a9dcc3b37c78dde62e1dc73f7
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.7.5

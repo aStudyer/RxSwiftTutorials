@@ -41,7 +41,7 @@ class RxAlamofire2Detail: BaseTableViewController {
     }
 }
 //豆瓣接口模型
-private class Douban: Mappable {
+fileprivate class Douban: Mappable {
     //频道列表
     var channels: [Channel]?
     
@@ -58,7 +58,7 @@ private class Douban: Mappable {
 }
 
 //频道模型
-private class Channel: Mappable {
+fileprivate class Channel: Mappable {
     var name: String?
     var nameEn:String?
     var channelId: String?

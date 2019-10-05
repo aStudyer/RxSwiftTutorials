@@ -1,0 +1,29 @@
+{
+  "name": "HHUIBase_Swift",
+  "version": "0.1.7",
+  "summary": "A short description of HHUIBase_Swift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/aStudyer/HHUIBase_Swift.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "aStudyer": "astudyer@163.com"
+  },
+  "source": {
+    "git": "https://github.com/aStudyer/HHUIBase_Swift.git",
+    "tag": "0.1.7"
+  },
+  "platforms": {
+    "ios": "9.3"
+  },
+  "source_files": "HHUIBase_Swift/Classes/**/*",
+  "swift_versions": "4.0",
+  "dependencies": {
+    "MJExtension": [
+
+    ]
+  },
+  "swift_version": "4.0"
+}

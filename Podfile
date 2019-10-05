@@ -16,6 +16,9 @@ target 'RxSwiftDemo' do
     pod 'RxAlamofire'
     pod 'Moya/RxSwift'
     pod 'Result'
+    pod 'HHUIBase_Swift', :git => 'https://github.com/aStudyer/HHUIBase_Swift.git'
+    pod 'Moya-ObjectMapper/RxSwift'
+
 end
 
 post_install do |installer|

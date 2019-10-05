@@ -61,4 +61,8 @@ class ViewController_02: BaseViewController {
         alertVc.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
         present(alertVc, animated: true, completion: nil)
     }
+
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
+    }
 }
